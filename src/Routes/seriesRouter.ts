@@ -5,5 +5,6 @@ const router = express.Router();
 
 router.post('/insert', seriesControllers.insertSeries);
 router.get('/view', seriesControllers.viewSeries);
+router.put('/update/:id', seriesControllers.updateSerie);
 
 export default router;
